@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/listaFragment"
+            android:title="@string/menu_listar" />
+        <item
+            android:id="@+id/buscarFragment"
+            android:title="@string/menu_buscar" />
+        <item
+            android:id="@+id/mostrarFragment"
+            android:title="@string/menu_mostrar" />
+        <item
+            android:id="@+id/ordenarFragment"
+            android:title="@string/menu_ordernar" />
+        <item
+            android:id="@+id/nav_categories"
+            android:title="@string/menu_subir" />
+        <item
+            android:id="@+id/nav_crud"
+            android:title="@string/menu_eliminar" />
+    </group>
+</menu>
